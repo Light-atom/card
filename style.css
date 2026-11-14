@@ -6,7 +6,7 @@ body {
 header {
     width: 100vw;
     height: 100vh;
-    background: url(header_bg.webp);
+    background: url(4afdsfa2sdfw.png);
     background-size: cover;
     display: flex;
 }
@@ -30,6 +30,16 @@ header {
 
 .bio {
     width: 60%;
+    color:white;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Смещение 2px, размытие 4px, полупрозрачный чёрный */
+}
+
+
+.bio:hover {
+    width: 60%;
+    color:white;
+    
+    box-shadow: 4px 4px 8px rgba(255, 255, 255, 0.5); /* Смещение 2px, размытие 4px, полупрозрачный чёрный */
 }
 
 
